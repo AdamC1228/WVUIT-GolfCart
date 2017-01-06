@@ -30,6 +30,7 @@ VERSION = 0.1
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 
 INCLUDEPATH += . /usr/include/SDL
+INCLUDEPATH += SDL2
 LIBS += -L/usr/include/SDL -lSDL
 
 RESOURCES = resources/icons.qrc
